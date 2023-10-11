@@ -1,0 +1,54 @@
+{
+  "identifier" : "EC34E6AB",
+  "nonRenewingSubscriptions" : [
+
+  ],
+  "products" : [
+
+  ],
+  "settings" : {
+    "_applicationInternalID" : "6443905384",
+    "_developerTeamID" : "6K5WMU35ZD",
+    "_lastSynchronizedDate" : 688041831.35185897
+  },
+  "subscriptionGroups" : [
+    {
+      "id" : "21033265",
+      "localizations" : [
+
+      ],
+      "name" : "Supermarket App Subscription",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [
+
+          ],
+          "codeOffers" : [
+
+          ],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "1650806612",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Access all features, Remove Ads ",
+              "displayName" : "Full App Access - Montly",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "SA_one_month",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Full App Access - Monthly",
+          "subscriptionGroupID" : "21033265",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 2,
+    "minor" : 0
+  }
+}
