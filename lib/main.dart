@@ -109,42 +109,11 @@ class _SplashScreenState extends State<SplashScreen> {
       splash: Center(
         child: Column(
             children: [
-              const Text("Supermarket App Pro", style: TextStyle(
-                color: Colors.white,
-                fontSize: 33,
-                fontFamily: 'SourceSans',
-              ),),
-
-              const SizedBox(height: 5,),
-
-              Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  const Text("by", style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 24,
-                    fontFamily: 'SourceSans',
-                  ),),
-
-                  Container(
-                      margin: const EdgeInsets.only(top: 5, left: 8),
-                      child: Image.asset('assets/images/logosp.png', width: 200,)
-                  ),
-                ],
+              Container (
+                  child: Image.asset('assets/images/super_logo.png', width: 320,)
               ),
-
-              const SizedBox(height: 20,),
-
-              Text("Find out if ingredients are unsafe \nfor you and your family’s health",
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontFamily: Platform.isAndroid ? 'Gotham' : null,
-                  fontSize: 16,
-                  color: Colors.white,
-                ),),
-            ]
-        ),
+            ],
+          ),
       ),
 
       backgroundColor: const Color(0xFF0D3163),

@@ -281,7 +281,7 @@ class _NavigationDrawerState extends State<NavigationDrawer> {
             const NavigationItemContainer(icon: Icons.chevron_right_sharp, text: "Disclaimer", urlT: "https://source.partners/disclaimer/"),
             const NavigationItemContainer(icon: Icons.chevron_right_sharp, text: "Visit Website", urlT: "https://source.partners/"),
             const NavigationItemContainer(icon: Icons.chevron_right_sharp, text: "Privacy Policy", urlT: "https://source.partners/privacy/"),
-            const NavigationItemContainer(icon: Icons.chevron_right_sharp, text: "Terms and Conditions", urlT: "https://source.partners/privacy/"),
+            const NavigationItemContainer(icon: Icons.chevron_right_sharp, text: "Terms and Conditions", urlT: "https://source.partners/terms/"),
             const Divider(),
 
             const SizedBox(height: 20,),

@@ -228,7 +228,7 @@ class _ScanPageState extends State<ScanPage> {
                           children: [
                             const SizedBox(height: 20),
 
-                            const SubHeadingText(text: "Unsafe Ingredients Results"),
+                            const SubHeadingText(text: "Ingredients of Concern"),
 
                             const SizedBox(height: 10),
 
@@ -262,7 +262,7 @@ class _ScanPageState extends State<ScanPage> {
                                         var bannedProduct = data.data as List<InternetBannedProduct>;
                                         return Column(
                                           children:[
-                                            const ParagraphText(text: "Below are unsafe ingredient(s) found in this product…", alignment: TextAlign.center,),
+                                            const ParagraphText(text: "Below are ingredients of concern found in this product", alignment: TextAlign.center,),
 
                                             const SizedBox(height: 15,),
 
@@ -298,12 +298,21 @@ class _ScanPageState extends State<ScanPage> {
 
                                             ),
 
-                                            const SizedBox(height: 10,),
+                                            const SizedBox(height: 20,),
+
+                                            const NoticeText(text: "This is a text-based scan result. It will show all ingredients (sometimes, multiple times) that are present on the ingredient list.",
+                                              alignment: TextAlign.center,),
+
+                                            const SizedBox(height: 20,),
+
+                                            const Divider(indent: 140, endIndent: 140,),
+
+                                            const SizedBox(height: 20,),
 
                                             const NoticeText(text: "Note: All concerns are for ingredients that are used long-term and in high doses i.e. years of use and over the limit of the FDA’s Acceptable Daily Intakes (ADI)",
                                             alignment: TextAlign.center,),
 
-                                            const SizedBox(height: 20,),
+                                            const SizedBox(height: 30,),
                                           ]
 
                                         );
