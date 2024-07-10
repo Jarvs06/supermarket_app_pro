@@ -110,7 +110,7 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Column(
             children: [
               Container (
-                  child: Image.asset('assets/images/super_logo.png', width: 320,)
+                  child: Image.asset('assets/images/supermarket_logo.png', width: 315,)
               ),
             ],
           ),

@@ -253,7 +253,7 @@ class _ScanPageState extends State<ScanPage> {
                                               ParagraphText(
                                                   text: requestURLQuery == ""
                                                   ? "Unable to read label, please crop image or use text-input"
-                                                  : "We are not able to find any unsafe ingredients on this label*\n\n*Use text-input for a more precise result"
+                                                  : "We are not able to find any concerning ingredients on this label*\n\n*Use text-input for a more precise result"
                                                   , alignment: TextAlign.center),
                                             ],
                                           ),
@@ -300,7 +300,7 @@ class _ScanPageState extends State<ScanPage> {
 
                                             const SizedBox(height: 20,),
 
-                                            const NoticeText(text: "This is a text-based scan result. It will show all ingredients (sometimes, multiple times) that are present on the ingredient list.",
+                                            const NoticeText(text: "Note: All concerns are for ingredients that are used long-term and in high doses i.e. years of use and over the limit of the FDA’s Acceptable Daily Intakes (ADI)",
                                               alignment: TextAlign.center,),
 
                                             const SizedBox(height: 20,),
@@ -309,8 +309,8 @@ class _ScanPageState extends State<ScanPage> {
 
                                             const SizedBox(height: 20,),
 
-                                            const NoticeText(text: "Note: All concerns are for ingredients that are used long-term and in high doses i.e. years of use and over the limit of the FDA’s Acceptable Daily Intakes (ADI)",
-                                            alignment: TextAlign.center,),
+                                            const NoticeText(text: "This is a text-based scan result. Please be mindful that the scanner may identify text that match concerning ingredients but are not the actual concerning ingredient, as it does not differentiate context.",
+                                              alignment: TextAlign.center,),
 
                                             const SizedBox(height: 30,),
                                           ]
